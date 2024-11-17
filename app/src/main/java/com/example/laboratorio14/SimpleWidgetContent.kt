@@ -1,3 +1,4 @@
+// SimpleWidgetContent.kt
 package com.example.laboratorio14
 
 import android.content.Context
@@ -43,7 +44,10 @@ class SimpleWidgetContent : GlanceAppWidget() {
                     text = "Página Principal",
                     onClick = actionStartActivity<MainActivity>()
                 )
-
+                Button(
+                    text = "Work",
+                    onClick = actionStartActivity<WorkActivity>()
+                )
             }
         }
     }
